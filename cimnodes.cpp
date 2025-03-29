@@ -3,6 +3,7 @@
 #include "imgui.h"
 #include "imgui_internal.h"
 #include "./imnodes/imnodes.h"
+namespace imnodes = ImNodes;
 #include "cimnodes.h"
 
 

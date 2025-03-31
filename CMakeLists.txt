@@ -29,7 +29,7 @@ if (IMGUI_WCHAR32)
     add_definitions("-DIMGUI_USE_WCHAR32=1")
 endif(IMGUI_WCHAR32)
 
-target_compile_definitions(cimnodes PUBLIC IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1)
+target_compile_definitions(cimnodes PUBLIC IMNODES_NAMESPACE=imnodes IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1)
 
 
 target_include_directories(cimnodes PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/imnodes)
